@@ -491,6 +491,22 @@ input:focus, textarea:focus {
     font-size: 0.85rem;
 }
 
+/* Discreet Asset Watermark */
+.asset-token {
+    font-size: 0.65rem;
+    color: #2A2E39;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+    cursor: default;
+    user-select: none;
+    transition: color 0.3s ease;
+}
+
+.asset-token:hover {
+    color: #5A6072;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 868px) {
     .hero-grid, .editorial-grid, .community-grid {
